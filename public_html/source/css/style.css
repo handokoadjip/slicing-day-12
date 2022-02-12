@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+html,
+body {
+	overflow-x: hidden
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #010101;
+	color: #fffffd;
+}
+
+::selection {
+  color: #000;
+  background: #ececec;
+}
+
+/* 
+------------------------------------------- 
+	UTILITY 
+-------------------------------------------
+*/
+.pointer {
+	cursor: pointer;
+}
+.leading-tight {
+	line-height: 1.25;
+}
+
+.leading-snug {
+	line-height: 1.375;
+}
+
+.leading-normal {
+	line-height: 1.5;
+}
+
+.leading-relaxed {
+	line-height: 1.625;
+}
+
+.leading-loose {
+	line-height: 2;
+}
+
+.v-invisible {
+	visibility: hidden;
+}
+
+.fs-7 {
+	font-size: 0.75rem;
+}
+
+.fw-bolder {
+	font-weight: 900 !important;
+}
+
+.rotate-90deg {
+	transform: rotate(-90deg);
+}
+
+.p-8 {
+	padding: 7.5rem;
+}
+
+.pe-6 {
+	padding-right: 4.5rem;
+}
+
+.mp-0 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.text-fade-1 {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.text-fade-black-1 {
+	color: rgba(0, 0, 0, .5) !important;
+}
+
+.icon-button {
+	font-size: 3rem;
+	color: #FE5000;
+}
+
+.text-black {
+	color: #070707 !important;
+}
+
+.text-sub-title {
+	position: relative;
+	margin-bottom: 2rem;
+	display: block;
+}
+
+.text-sub-title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 2rem;
+	border-bottom: 4px solid #FE5000;
+	z-index: 0;
+	margin-top: 0.5rem;
+}
+
+.btn-custom-1 {
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #FE5000;
+	transition: .2s;
+	border-radius: 30px;
+}
+
+.btn-custom-1:hover {
+	background-color: #FE5000;
+	border-color: #FE5000;
+}
+
+.ls-5px {
+	letter-spacing: 5px;
+}
+
+.h-vh-50 {
+	height: 50vh;
+}
+
+.z-999 {
+	z-index: 999;
+}
+
+/* 
+------------------------------------------- 
+	NAVBAR 
+-------------------------------------------
+*/
+.navbar-image {
+	width: 150px;
+}
+
+.navbar-dark .navbar-nav .nav-link.nav-link-sub {
+	color: rgba(255, 255, 255, .55) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.nav-link-sub:hover {
+	color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, .55) !important;
+}
+
+/* 
+------------------------------------------- 
+	SECTION 1 
+-------------------------------------------
+*/
+.bg-image-1 {
+	background-image: url(../image/triumph-thruxton.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-image-1::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: radial-gradient(63.94% 63.94% at 47.27% 39.9%, rgba(0, 0, 0, 0.28) 13.55%, rgba(2, 2, 2, 0.93) 91.16%);
+}
+
+.circle-bullet {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #fffffd;
+	border-radius: 50%;
+}
+
+.circle-bullet-color {
+	width: 10px;
+	height: 10px;
+	background-color: #FE5000;
+	border-radius: 50%;
+}
+
+
+/* 
+------------------------------------------- 
+	SECTION 2 
+-------------------------------------------
+*/
+.bg-image-2 {
+	background-image: url(../image/triumph-street.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: -100vh;
+}
+
+.bg-image-2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: radial-gradient(86.33% 240.16% at 1.57% 153.37%, rgba(0, 0, 0, 0) 35.85%, #020202 70.86%)
+}
+
+/* 
+------------------------------------------- 
+	SECTION 3 
+-------------------------------------------
+*/
+.bg-image-3 {
+	background-color: #fff;
+	background-image: url(../image/triumph-street-twin.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-image-3::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+/* 
+------------------------------------------- 
+	SECTION 4 
+-------------------------------------------
+*/
+.bg-image-4 {
+	background-image: url(../image/riding.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-image-4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .3)
+}
+
+/* 
+------------------------------------------- 
+	SECTION 5
+-------------------------------------------
+*/
+.bg-image-5 {
+	background-image: url(../image/beckham-triumph.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -100vh;
+}
+
+.bg-image-5::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .3)
+}
+
+.products {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.products:hover {
+	color: #fff!important;
+}
+
+.products.active {
+	color: #fff !important;
+}
+
+.text-border-bottom.active::after {
+	content: '';
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-bottom: 2px solid #fff;
+	z-index: 0;
+	margin-top: 0.5rem;
+}
+
+/* 
+------------------------------------------- 
+	SECTION 6
+-------------------------------------------
+*/
+.bg-image-6 {
+	background-image: url(../image/triumph-jacket.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-image-6::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .8);
+	filter: grayscale(1);
+}
+
+/* 
+------------------------------------------- 
+	SECTION 7
+-------------------------------------------
+*/
+.last-gallery::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .7);
+	filter: grayscale(1);
+	z-index: 999;
+}
+
+/* 
+------------------------------------------- 
+	BREAKPOINT
+-------------------------------------------
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	/* 
+	------------------------------------------- 
+		UTILITY 
+	-------------------------------------------
+	*/
+	.w-lg-auto {
+		width: auto !important;
+	}
+
+	/* 
+	------------------------------------------- 
+		SECTION 2 
+	-------------------------------------------
+	*/
+	.bg-image-2 {
+		background-position-x: -500px;
+	}
+
+	/* 
+	------------------------------------------- 
+		SECTION 3 
+	-------------------------------------------
+	*/
+	.bg-image-3 {
+		background-position-x: 500px;
+	}
+	
+	.bg-image-3::before {
+		content: none;
+	}
+
+	/* 
+	------------------------------------------- 
+		SECTION 5 
+	-------------------------------------------
+	*/
+	.bg-image-5 {
+		background-position: center;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	/* 
+	------------------------------------------- 
+		UTILITY 
+	-------------------------------------------
+	*/
+	.p-xl-8 {
+		padding: 7.5rem;
+	}
+
+	.ls-xl-10px {
+		letter-spacing: 10px;
+	}
+
+	/* 
+	------------------------------------------- 
+		SECTION 5 
+	-------------------------------------------
+	*/
+	.text-border-bottom.active:after {
+		width: 100%;
+	}	
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	/* 
+	------------------------------------------- 
+		SECTION 2 
+	-------------------------------------------
+	*/
+	.bg-image-2 {
+		background-position-x: -800px;
+	}
+}
