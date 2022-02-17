@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+$(document).ready(function () {
   $('#products').owlCarousel({
     loop: true,
     margin: 10,
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
 
-  var owl = $('#products');
+  const owl = $('#products');
   owl.owlCarousel();
   $('.customNextBtn').click(function() {
     owl.trigger('next.owl.carousel');
