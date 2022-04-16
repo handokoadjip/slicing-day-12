@@ -1,7 +1,6 @@
 $(document).ready(function () {
   $('#products').owlCarousel({
     loop: true,
-    margin: 10,
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
