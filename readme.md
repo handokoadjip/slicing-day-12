@@ -5,7 +5,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/handokoadjip/slicing-day-12/fork)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Day 12, I will show you the slicing results of the beautiful designs made by https://pin.it/3otnuS0.
+Day 12, I will show you the slicing results of the beautiful designs made by https://pin.it/3XD2cWe.
 
 This project made using [Bootstrap 5.\*](https://getbootstrap.com/docs/5.1/getting-started/introduction/) framework.
 
